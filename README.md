@@ -1,4 +1,4 @@
-# Pebble Network Simulation
+# Pebble DLT Network Simulation
 In a Pebble Network, at a given time, a set of transactions enter the network. Each entering transaction divides the nodes into primary, secondary and ternary. Each node records the timestamp for the transactions on the first see.
 A transaction, on reaching all the nodes in a network, announces the vector timestamp. The nodes in the network update their local timestamps, with reference to the transaction vector timestamp announced.
 
